@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "607865187157",
+    "project_id": "fitn-bb4f2",
+    "storage_bucket": "fitn-bb4f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607865187157:android:770238c9e330f06757dddc",
+        "android_client_info": {
+          "package_name": "com.sarfarazmeyo.fitn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOPSX32Y_4kJ3DXW-p3rGVxb53HR02z0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
