@@ -4,6 +4,7 @@ import * as Device from "expo-device";
 import * as Notifications from "expo-notifications";
 import Constants from "expo-constants";
 import { Sample } from "./src/components/Sample";
+import "expo-dev-client";
 
 Notifications.setNotificationHandler({
   handleNotification: async () => ({

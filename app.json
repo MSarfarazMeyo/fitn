@@ -1,19 +1,26 @@
 {
   "expo": {
-    "name": "fitn",
+    "name": "FITN",
     "slug": "fitn",
-    "version": "1.0.0",
+    "version": "1.2.5",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icons/FitnLogo.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/icons/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000"
     },
     "assetBundlePatterns": ["**/*"],
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/39704e70-ff28-4d41-82a2-9046013e730e"
+    },
     "ios": {
-      "supportsTablet": true
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "supportsTablet": true,
+      "buildNumber": "1.2.5",
+      "bundleIdentifier": "com.fitn.my-app"
     },
     "android": {
       "googleServicesFile": "./google-services.json",
@@ -26,10 +33,21 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
     "extra": {
       "eas": {
         "projectId": "433785f5-9323-40e4-8903-83d91989e435"
       }
     }
-  }
+  },
+  "plugins": [
+    [
+      "expo-image-picker",
+      {
+        "photosPermission": "The app accesses your videos to let you share them with your friends."
+      }
+    ]
+  ]
 }
